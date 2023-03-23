@@ -2,10 +2,11 @@ import ItemListContainer from "../ItemListContainer/ItemListContainer";
 import ProductCard from "../ProductCard/ProductCard";
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+const Footer = ({ children }) => {
   return (
     <div className={styles.containerFooter}>
-      <ItemListContainer nombre={"Luciano"} />
+      {children}
+      {/* <ItemListContainer nombre={"Luciano"} /> */}
     </div>
   );
 };

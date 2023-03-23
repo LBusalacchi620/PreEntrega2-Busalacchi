@@ -1,5 +1,5 @@
 import styles from "./NavBar.module.css";
-import CardWidget from "../CardWidget/CardWidget";
+// import CardWidget from "../CardWidget/CardWidget";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
@@ -18,22 +18,16 @@ const Navbar = ({ children }) => {
             <Button variant="Text">Todas</Button>
           </li>
           <li>
-            <Button variant="Text">Bebidas</Button>
+            <Button variant="Text">Cocina</Button>
           </li>
           <li>
             <Button variant="Text">Lacteos</Button>
           </li>
           <li>
-            <Button variant="Text">Alimentos</Button>
-          </li>
-          <li>
-            <Button variant="Text">Congelados</Button>
-          </li>
-          <li>
-            <Button variant="Text">Limpieza</Button>
+            <Button variant="Text">Bebidas</Button>
           </li>
         </ul>
-        <CardWidget />
+        {/* <CardWidget /> */}
       </div>
       {children}
     </div>

@@ -1,10 +1,27 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import { products } from "../../productsMock";
+import ItemList from "../ItemList/ItemList";
 
-const ItemListContainer = ({ nombre }) => {
+const ItemListContainer = () => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    const productList = new Promise((resolve, reject) => {
+      resolve(products);
+    });
+    productList
+      .then((res) => {
+        setItems(res);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+  console.log(items);
+
   return (
     <div>
-      <h1>Bienvenido la plataforma de Diarco</h1>
-      <h2>{nombre}</h2>
+      <ItemList items={items} />
     </div>
   );
 };
