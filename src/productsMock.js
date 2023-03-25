@@ -50,7 +50,7 @@ export const products = [
     price: 1600,
     stock: 10,
     description: "Queso cremoso marca La Paulina X 1Kg",
-    category: "lácteos",
+    category: "lacteos",
     img: "https://res.cloudinary.com/dxf8ebmi7/image/upload/v1679363369/quesocremoso_vwdrco.webp",
   },
   {
@@ -59,7 +59,7 @@ export const products = [
     price: 1199,
     stock: 10,
     description: "Queso Mozzarella marca La Paulina X 1Kg",
-    category: "lácteos",
+    category: "lacteos",
     img: "https://res.cloudinary.com/dxf8ebmi7/image/upload/v1679363368/mozzarella_ika1a8.webp",
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     price: 1350,
     stock: 10,
     description: "Queso Dambo marca La Paulina X Kg",
-    category: "lácteos",
+    category: "lacteos",
     img: "https://res.cloudinary.com/dxf8ebmi7/image/upload/v1679363369/quesodambo_oa99mb.webp",
   },
   {
@@ -77,7 +77,7 @@ export const products = [
     price: 1600,
     stock: 10,
     description: "Queso Pategras/Sandwich marca La Paulina X Kg",
-    category: "lácteos",
+    category: "lacteos",
     img: "https://res.cloudinary.com/dnqfh2chg/image/upload/v1669430220/rtokwmt3j03bblbfhwhb.jpg",
   },
   {
@@ -86,7 +86,7 @@ export const products = [
     price: 449,
     stock: 10,
     description: "Queso rallado marca Sancor X 150g",
-    category: "lácteos",
+    category: "lacteos",
     img: "https://res.cloudinary.com/dxf8ebmi7/image/upload/v1679363369/ralladosancor_erwe3r.webp",
   },
   {

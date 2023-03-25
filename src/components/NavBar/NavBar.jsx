@@ -17,16 +17,24 @@ const Navbar = ({ children }) => {
         </Link>
         <ul className={styles.containerList}>
           <li>
-            <Button variant="Text">Todas</Button>
+            <Link to="/">
+              <Button variant="Text">Todas</Button>
+            </Link>
           </li>
           <li>
-            <Button variant="Text">Cocina</Button>
+            <Link to="/category/cocina">
+              <Button variant="Text">Cocina</Button>
+            </Link>
           </li>
           <li>
-            <Button variant="Text">Lacteos</Button>
+            <Link to="/category/lacteos">
+              <Button variant="Text">Lacteos</Button>
+            </Link>
           </li>
           <li>
-            <Button variant="Text">Bebidas</Button>
+            <Link to="/category/bebidas">
+              <Button variant="Text">Bebidas</Button>
+            </Link>
           </li>
         </ul>
         <CardWidget />
