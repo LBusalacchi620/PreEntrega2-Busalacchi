@@ -1,6 +1,5 @@
 import { BsFillCartCheckFill } from "react-icons/bs";
 import "./CartWidget.css";
-
 import { Link } from "react-router-dom";
 
 const CartWidget = ({ numero }) => {
